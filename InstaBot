@@ -1,6 +1,9 @@
 # This code automatically likes, comments, follows, chats on instagram
 
+#import InstaPy library and login into instagram using login credentials
 from instapy import InstaPy
 
 session = InstaPy(username="your username",password="your password")
 session.login()
+
+
